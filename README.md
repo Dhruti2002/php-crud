@@ -76,7 +76,7 @@ Start Apache and MySQL in XAMPP
 
 Visit the project in your browser:
 
-http://localhost/project/
+http://localhost/prroject_name/
 
 
 You can now:
@@ -88,4 +88,5 @@ Edit books
 Delete books
 
 View book list
+
 

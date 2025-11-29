@@ -5,7 +5,7 @@ It includes features to Create, Read, Update, and Delete book records with a cle
 
 🚀 Features
 
-✔ Add new books
+✔ Add new books 
 ✔ View all books
 ✔ Edit existing book details
 ✔ Delete books
@@ -25,33 +25,18 @@ Bootstrap 5
 
 XAMPP / WAMP / Laragon
 
-📁 Project Structure
-project/
-│── index.php
-│── create.php
-│── edit.php
-│── delete.php
-│── process.php
-│── connect.php
-│── README.md
-│── db/
-│   └── database.sql
-└── assets/
-    └── css/
-    └── js/
-
 🗄️ Database Setup
 
 Open phpMyAdmin
 
 Create a database:
 
-library
+crud
 
 
 Import the SQL file located at:
 
-db/database.sql
+db/crud.sql
 
 SQL File Content (Your Database Schema)
 CREATE TABLE `books` (
@@ -71,7 +56,7 @@ Update your connect.php file if needed:
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "library";
+$database = "crud";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 
@@ -103,3 +88,4 @@ Edit books
 Delete books
 
 View book list
+
